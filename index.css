@@ -3,12 +3,16 @@ body{
 	background-size: cover;
 	background-position: center;
 	font-family: Lato;
+	height: 90%;
 }
 #content {
 	text-align: center;
 	padding-top: 20%;
 	color:white;
 	border-radius: 15px;
+	text-shadow: 1px 3px 2px rgba(0,0,0,0.4),
+				 1px 5px 4px rgba(0,0,0,0.4),
+				 1px 7px 4px rgba(0,0,0,0.4);
 
 
 }
@@ -20,14 +24,35 @@ body{
 	background: black;
 }
 hr{
-	color: white;
-	background: white;
+	
 	width: 70%;
+	border-top: 3px solid #f8f8f8;
+	border-bottom :2px solid rgba(0,0,0,0.2);
 }
 h1{
 	font-weight: 700;
 	font-size: 4em;
+	text-align: center;
 }
 html{
 	height: 100%;
+}
+/*Used in what.html*/
+#content2 {
+	text-align: justify-all;
+	color:white;
+	border-radius: 15px;
+	text-shadow: 1px 3px 2px rgba(0,0,0,0.4),
+				 1px 5px 4px rgba(0,0,0,0.4),
+				 1px 7px 4px rgba(0,0,0,0.4);
+	background: #f1a54f;
+	height: auto;
+	padding: 7PX;
+	padding-top: 10%;
+	font-size:1.2rem;
+
+
+}
+#check{
+	height: 90%;
 }

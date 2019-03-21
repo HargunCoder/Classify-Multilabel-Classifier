@@ -1,20 +1,20 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Classifie-Multil label Classifier-WhatIS</title>
-
+	<title>Rosenta-What-is</title>
 	<!--Latest compiled and minified CSS -->
 	<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"> -->
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 	<!-- Customizing stylesheet -->
-	<link rel="stylesheet" type="text/css" href="index.css">
+	<!-- <link rel="stylesheet" type="text/css" href="index.css"> -->
 	<!-- Google Fonts -->
 	<link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
 	<!-- Icon Support -->
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 	<!-- Mobile Site functionality -->
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-
+	<link rel="stylesheet" type="text/css" href="what.css">
+	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700" rel="stylesheet">
 
 </head>
 <body>
@@ -29,7 +29,7 @@
 	<!-- Navbar Design  -->
 	<nav class="navbar fixed-top navbar-expand-md navbar-dark bg-dark">
 		<div class="container">
-      <a class="navbar-brand" href="#">Classifie</a>
+      <a class="navbar-brand" href="index.html">Rosenta <i class="fas fa-flower"></i></a>
       <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarsExample04" aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -66,37 +66,73 @@
       </div>
     </nav>
 
-	<div class="container" >
-		<div class="row">
-			<div class="col-lg-12 id="check">
-				<div id="content2">
-					<h1>Classifie-Multi Label Text Classifier</h1>
-					<hr>
-					<p>Communication on the social forums is one of the most utilized methods of online
-						conversation and expressing oneself today. Discussing things and giving opinions
- 						over particular thing or post can be difficult. On these platforms’ abuses, online
-						harassment, jeering and cyber-bullying over comments can have negative impact
-						on a person's psychological health and life. It leads to many people stop expressing
-						themselves and give up on seeking different opinions. the organizations who
-						provides such online discussion platforms have worked on such comment
-						classification and found out classifying the comments based on their toxicity into
-						multiple categories to call for appropriate actions to curb the negative influences
-						on social platforms. Such a multi-label classification model will make the purpose
-						of social media more constructive and positive also helping the companies save
-						time and efforts in moderating their platforms. For this task, Convolution Neural
-						Network (CNN) has shown more efficient results in sentiment analysis, for our
-						model, we have used Kaggle’s Toxic Comment Classification Dataset regarding
-						Wikipedia's talk page edits to develop a multi-headed model which classifies the
-						comments based on the toxicity of comments as toxic, severe toxic, obscene,
-						threat, insult, identity hate. We aim to apply the text-based Convolutional Neural
-						Network (CNN) With word embedding, using Fast Text Method to analyse the
-						comments. Our model will aim to improve on detecting different types of toxicity
-						to improvise the social media experience.</p>
-					
-				</div>
-			</div>
-		</div>
-	</div>
+
+
+
+	
+
+	<!-- Post 1 -->
+<div class="post">
+
+	<div class="date"> No More Toxicity</div>
+
+	<h2>What is the Issue we are dealing with?</h2>
+	<p class="quote">
+		Communication on the social forums is one of the most utilized methods of online conversation and expressing oneself today. Discussing things and giving opinions over particular thing or post can be difficult. On these platforms’ abuses, online harassment, jeering and cyber-bullying over comments can have negative impact on a person's psychological health and life. </p>
+
+	<p>
+	It leads to many people stop expressing themselves and give up on seeking different opinions.Using manual moderation is ineffective and failing to curb the issue. So to deal with this issue we came up with this idea.</p>
+
+
+	</p>
+	<hr>
+
+</div>
+
+
+<!-- Post 2 -->
+<div class="post">
+
+	<h2>What exactly is Rosenta?</h2>
+	<p class="quote">
+
+	Rosenta is a  system which uses Fast-Textword embedding technique and CNN for multi label classification task of toxic comments. In this system, input as comments will be fed from social sites which will be analyzed and send to word embedding phase. In this, sentences are broken into words and embedded into vectors which can be processed by CNN. After evaluation by trained CNN model, a resultant labels or categories of toxicity will be predicted and can be visualized.</p>
+
+	<p>The goal is to classify the comments or sentences based on their toxicity level into various categories. By categorizing these comments, the action team can take appropriate actions to curb the occurrence and growth of negative influences created with such activities on social platforms. Such a multi-label classification model will make the purpose of social conversation on social media more effective and positive. By automating this comment classification approach, the companies can save their time and manual efforts in moderating these platforms.
+	</p>
+
+
+
+</div>
+
+<div class="post">
+
+	<h2>What are objectives of this Project?</h2>
+	<ul id="special">
+		<li>Creating a word embedding mechanism that
+			can help to identify the slang or negative
+			terms in the comment.</li>
+		<li>Identify the class to which the slang term belongs based on toxicity level and assign corresponding weights.</li>
+		<li> Perform an efficient pre-processing unit to
+		make data suitable for analysis</li>
+		<li>Create a CNN model to perform classification
+		process by training the model with training
+		data to fit and test to model to evaluate the
+		accuracy rate</li>
+		<li>Improving the model by backpropagation
+		mechanism and managing the trade-off
+		between over-fitting and under-fitting.</li>
+	</ul>
+</div>
+
+<div class="post">
+	<h2>Can you share its working?</h2>
+	<p>Have a look at our System Architecture</p>
+		<img src="architect.png" alt="System Architecture">
+	
+</div>
+
+
 
 
 </body>
